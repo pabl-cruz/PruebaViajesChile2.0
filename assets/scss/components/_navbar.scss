@@ -1,0 +1,36 @@
+.navbar{
+  position: fixed;
+  z-index: 9;
+  width: 1280px;
+}
+
+
+@media screen and (max-width: 1400px){
+  .navbar{
+    width: 1120px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .navbar{
+    width: 945px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .navbar{
+    width: 690px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .navbar{
+    width: 510px;
+  }
+}
+
+@media screen and (max-width: 539px){
+  .navbar{
+    width: 96%;
+  }
+}
