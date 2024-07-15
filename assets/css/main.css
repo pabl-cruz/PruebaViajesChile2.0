@@ -9676,7 +9676,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
+*, a, ul {
   text-decoration: none;
   list-style: none;
 }
@@ -9743,16 +9743,42 @@ textarea.form-control-lg {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  overflow: hidden;
+  border-radius: 5px 0 0 5px;
 }
 
 .quien--img {
   border-radius: 15px;
 }
 
-@media screen and (min-width: 768px) {
-  .destacados .col-md-5 {
-    width: 47.53%;
+.testimony__userImage {
+  display: flex;
+  margin: 0 auto 1rem auto;
+  width: 100%;
+  height: 104px;
+  border: 1px solid #f0d897;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimony__text {
+  text-align: center;
+  color: #f0d897;
+}
+.testimony__text--quote {
+  font-style: italic;
+  margin: 0 2rem 2rem 2rem;
+}
+
+.contact__list {
+  color: #fff;
+}
+.contact__icon {
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .destacados .col-lg-5 {
+    width: 46.66%;
   }
 }
 

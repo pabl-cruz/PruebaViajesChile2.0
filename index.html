@@ -92,11 +92,9 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotos" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotos" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
     </header>
@@ -122,7 +120,7 @@
         <h2 class="raleway-regular text-center text-white pt-5 pb-3">Destacados</h2>
         <hr>
         <div class="row justify-content-center pt-2">
-          <div class="card row col-12 col-md-5 mx-xs-3 m-md-3 p-0 bg-light">
+          <div class="card row col-12 col-lg-5 m-3 p-0 bg-light">
             <div class="row g-0">
               <div class="col-12 col-md-4 p-0">
                 <img class="card--imgSide" src="assets/img/card1.jpg" alt="Región de los lagos">
@@ -139,7 +137,7 @@
               </div>
             </div>
           </div>
-          <div class="card row col-12 col-md-5 mx-xs-3 m-md-3 p-0 bg-light">
+          <div class="card row col-12 col-lg-5 m-3 p-0 bg-light">
             <div class="row g-0">
               <div class="col-12 col-md-4 p-0">
                 <img class="card--imgSide" src="assets/img/card2.jpg" alt="Desierto de Atacama">
@@ -156,7 +154,7 @@
               </div>
             </div>
           </div>
-          <div class="card row col-12 col-md-5 mx-xs-3 m-md-3 p-0 bg-light">
+          <div class="card row col-12 col-lg-5 m-3 p-0 bg-light">
             <div class="row g-0">
               <div class="col-12 col-md-4 p-0">
                 <img class="card--imgSide" src="assets/img/card3.jpg" alt="Norte grande de Chile">
@@ -173,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="card row col-12 col-md-5 mx-xs-3 m-md-3 p-0 bg-light">
+          <div class="card row col-12 col-lg-5 m-3 p-0 bg-light">
             <div class="row g-0">
               <div class="col-12 col-md-4 p-0">
                 <img class="card--imgSide" src="assets/img/card4.jpg" alt="Bosque mágico">
@@ -194,25 +192,25 @@
       </section>
       <!--section testimonios-->
       <section id="testimonios" class="container testimony">
-        <h2 class="raleway-regular text-center text-white pt-5 pb-4">
+        <h2 class="raleway-regular text-center text-white pt-5 pb-3">
           Testimonios
           </h2>
           <hr>
-          <div class="row">
+          <div class="row py-5">
             <div class="testimony__card col-12 col-md-4">
-              <i class="text-white center">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quam omnis quisquam voluptas sit provident culpa hic vitae, sunt eligendi rem.</i>
-              <img src="assets/img/testimonio1.jpg" class="w-25 text-center justify-content-center testimony_userImage" alt="Testimonio Mariela">
-              <h4 class="text-center text-white">Mariela</h4>
+              <p class="testimony__text testimony__text--quote">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quam omnis quisquam voluptas sit provident culpa hic vitae, sunt eligendi rem.</p>
+              <img src="assets/img/testimonio1.jpg" class="w-25 testimony__userImage" alt="Testimonio Mariela">
+              <h4 class="testimony__text">Mariela</h4>
             </div>
             <div class="testimony__card col-12 col-md-4">
-              <i class="text-white center">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quam omnis quisquam voluptas sit provident culpa hic vitae, sunt eligendi rem.</i>
-              <img src="assets/img/testimonio2.jpg" class="w-25 text-center justify-content-center testimony_userImage" alt="Testimonio Christian">
-              <h4 class="text-center text-white">Christian</h4>
+              <p class="testimony__text testimony__text--quote">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quam omnis quisquam voluptas sit provident culpa hic vitae, sunt eligendi rem.</p>
+              <img src="assets/img/testimonio2.jpg" class="w-25 testimony__userImage" alt="Testimonio Christian">
+              <h4 class="testimony__text">Christian</h4>
             </div>
             <div class="testimony__card col-12 col-md-4">
-              <i class="text-white center">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quam omnis quisquam voluptas sit provident culpa hic vitae, sunt eligendi rem.</i>
-              <img src="assets/img/testimonio3.jpg" class="w-25 text-center justify-content-center testimony_userImage" alt="Testimonio Fernanda">
-              <h4 class="text-center text-white">Fernanda</h4>
+              <p class="testimony__text testimony__text--quote">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quam omnis quisquam voluptas sit provident culpa hic vitae, sunt eligendi rem.</p>
+              <img src="assets/img/testimonio3.jpg" class="w-25 testimony__userImage" alt="Testimonio Fernanda">
+              <h4 class="testimony__text">Fernanda</h4>
             </div>
           </div>
         </h2>
@@ -228,21 +226,23 @@
           <div id="form" class="col-12 col-lg-6 mb-5">
             <form class="mt-5">
                 <div id="sentForm"></div>
-                <div class="mb-3">
-                  <label for="name" class="form-label">Nombre <a href="#" class="ml-2" data-bs-toggle="tooltip" data-bs-title="Escriba su Nombre"><i class="fa-solid fa-circle-info"></i></a></label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name">
+                <div class="row">
+                  <div class="mb-3 col-6">
+                    <label for="name" class="form-label text-white">Nombre <a href="#" class="ml-2" data-bs-toggle="tooltip" data-bs-title="Escriba su Nombre"><i class="fa-solid fa-circle-info"></i></a></label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name">
+                  </div>
+                  <div class="mb-3 col-6">
+                    <label for="email" class="form-label text-white">Email <a href="#" class="ml-2" data-bs-toggle="tooltip" data-bs-title="Escriba su Correo. Ejemplo direccion@email.com"><i class="fa-solid fa-circle-info"></i></a></label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                  </div>
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email <a href="#" class="ml-2" data-bs-toggle="tooltip" data-bs-title="Escriba su Correo. Ejemplo direccion@email.com"><i class="fa-solid fa-circle-info"></i></a></label>
-                  <input type="email" class="form-control" id="email" aria-describedby="email">
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Mensaje <a href="#" class="ml-2" data-bs-toggle="tooltip" data-bs-title="Escriba su mensaje."><i class="fa-solid fa-circle-info"></i></a></label>
+                    <label for="message" class="form-label text-white">Mensaje <a href="#" class="ml-2" data-bs-toggle="tooltip" data-bs-title="Escriba su mensaje."><i class="fa-solid fa-circle-info"></i></a></label>
                     <textarea name="message" id="message" class="form-control" height="10vh"></textarea>
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1"><a data-bs-toggle="modal" data-bs-target="#exampleModal">Acepto los terminos y condiciones</a></label>
+                  <label class="form-check-label" for="exampleCheck1"><a class="text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Acepto los terminos y condiciones</a></label>
                 </div>
                 <button type="submit" id="submit" class="btn btn-primary">Enviar</button>
               </form>
@@ -288,6 +288,6 @@
       crossorigin="anonymous"
     ></script>
     <!--Scripts particulares-->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
