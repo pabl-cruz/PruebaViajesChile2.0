@@ -7,3 +7,9 @@ hr{
 h5{
   font-size: 1.50rem;
 }
+
+.contacto{
+  &__link{
+    text-decoration: underline;
+  }
+}

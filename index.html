@@ -22,7 +22,7 @@
   <body class="bg-dark">
     <header class="container">
       <!--navbar-->
-      <nav class="navbar navbar-expand-lg bg-none" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-none bg-blur" data-bs-theme="dark">
         <div class="container">
           <div class="row col">
             <img
@@ -217,8 +217,8 @@
       </section>
     </main>
     <footer>
-      <section id="contacto" class="container">
-        <h2 class="raleway-regular text-center text-white pt-5 pb-4">
+      <section id="contacto" class="container contacto">
+        <h2 class="text-center text-white pt-5 pb-4">
           Contacto
         </h2>
         <hr />
@@ -242,9 +242,9 @@
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1"><a class="text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Acepto los terminos y condiciones</a></label>
+                  <label class="form-check-label" for="exampleCheck1"><a class="text-white contacto__link" data-bs-toggle="modal" data-bs-target="#exampleModal">Acepto los terminos y condiciones</a></label>
                 </div>
-                <button type="submit" id="submit" class="btn btn-primary">Enviar</button>
+                <a type="button" href="#sentForm" id="submit" class="btn btn-primary">Enviar</a>
               </form>
               <!--modal-->
               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -266,11 +266,11 @@
               </div>
             </div>
             <div class="col-12 col-lg-6 mt-5">
-              <ul class="contact__list">
-                <li class="mb-3 contact__list--point"><i class="fa-solid fa-phone contact__icon"></i>+56 9 99887766</li>
-                <li class="my-3"><a href="emailto:contacto@viajeschiles.com"><i class="fa-solid fa-envelope contact__icon"></i>contacto@viajeschile.com</a></li>
-                <li class="my-3"><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin contact__icon"></i>ViajesChile</a></li>
-                <li class="mt-3"><a href="https://instagram.com"><i class="fa-brands fa-instagram contact__icon"></i>viajes_chile</a></li>
+              <ul>
+                <li class="mb-3 contact__list contact__list--point"><i class="fa-solid fa-phone contact__icon"></i>+56 9 99887766</li>
+                <li class="my-3"><a class="contact__list" href="emailto:contacto@viajeschiles.com"><i class="fa-solid fa-envelope contact__icon"></i>contacto@viajeschile.com</a></li>
+                <li class="my-3"><a class="contact__list" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin contact__icon"></i>ViajesChile</a></li>
+                <li class="mt-3"><a class="contact__list" href="https://instagram.com"><i class="fa-brands fa-instagram contact__icon"></i>viajes_chile</a></li>
               </ul>
             </div>
         </div>
