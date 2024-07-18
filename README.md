@@ -1,4 +1,4 @@
-##Prueba Viajes Chile 2.0 
+# Prueba Viajes Chile 2.0 
 
 Repositorio de prueba final del módulo 3 para Bootcamp de Programación Front-End Trainee de Desafío Latam. Contiene los archivos de la página.
 
