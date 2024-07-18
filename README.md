@@ -84,7 +84,7 @@ Repositorio de prueba final del módulo 3 para Bootcamp de Programación Front-E
 
 1. Clona el repositorio:
 ```
-git clone git@github.com:pabl-cruz/PruebaViajesChile.git
+git clone git@github.com:pabl-cruz/PruebaViajesChile2.0.git
 ```
 2. Navega hacia el directorio del proyecto con terminal
 ```
